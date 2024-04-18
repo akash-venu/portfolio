@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!--
+    Hyperspace by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>End-to-End Pizza Management System</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Set whole page background color to black and text color to white */
+            body, #header, #footer {
+                background-color: black;
+                color: white;
+            }
+
+            /* Set text color for header and footer links */
+            #header .title, #header nav ul li a, #footer .menu li {
+                color: white;
+            }
+            /* Style for the project content */
+            .project-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .project-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .github-button {
+                background: linear-gradient(45deg, #8B008B, #FF69B4);
+                color: white;
+                border: none;
+                padding: 15px 30px; /* Adjusted padding for button size */
+                text-align: center;
+                display: inline-block;
+                margin-top: 20px; /* Adjusted margin for spacing */
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+                line-height: 1; /* Center-align text vertically */
+                vertical-align: middle;
+                border-radius: 5px; /* Rounded corners */
+                cursor: pointer; /* Cursor pointer for better UX */
+            }
+
+            .github-button:hover {
+                background: linear-gradient(45deg, #FF69B4, #8B008B);
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="title">Home</a>
+            <nav>
+                <ul>
+                    <!-- Changed the href to a JavaScript function to go back in history -->
+                    <li><a href="#" id="backButton">Back</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Main -->
+            <section id="main" class="wrapper">
+                <div class="inner project-content">
+                    <h1 class="major">End-to-End Pizza Management System</h1>
+                    <img src="2652401_QFSSL_SupremePizza_00072-d910a935ba7d448e8c7545a963ed7101.jpg" alt="Project Image" class="project-image">
+                    <p>
+                        I crafted an Entity-Relationship (ER) model using Crow's Foot notation, meticulously designing a comprehensive database tailored to the operational needs of a pizza company. This ER model served as the blueprint for the subsequent development of a MySQL database, where I engineered the SQL code to align perfectly with the ERD. The result was a robust and functional database system that effectively captured and organized the company's data. To further enhance the company's operational efficiency, I developed a Java application that seamlessly interfaced with the MySQL database. This application not only facilitated smooth data transactions but also optimized various operational aspects, streamlining processes and contributing to enhanced efficiency across the board.
+                    </p>
+                    <button class="github-button" onclick="window.open('https://github.com/akash-venu/Projects/tree/main/DBMS', '_blank')">
+                        GitHub Repository
+                    </button>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="wrapper alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; End-to-End Pizza Management System</li><li>Akash Venugopal</li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            // Add event listener to the back button
+            document.getElementById('backButton').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent the default behavior of the anchor tag
+                window.history.back(); // Navigate back in history
+            });
+        </script>
+
+    </body>
+</html>

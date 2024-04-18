@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!--
+    Hyperspace by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Detection of Alzheimer’s Disease using Machine Learning Model</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Set whole page background color to black and text color to white */
+            body, #header, #footer {
+                background-color: black;
+                color: white;
+            }
+
+            /* Set text color for header and footer links */
+            #header .title, #header nav ul li a, #footer .menu li {
+                color: white;
+            }
+            /* Style for the project content */
+            .project-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .project-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .github-button {
+                background: linear-gradient(45deg, #8B008B, #FF69B4);
+                color: white;
+                border: none;
+                padding: 15px 30px; /* Adjusted padding for button size */
+                text-align: center;
+                display: inline-block;
+                margin-top: 20px; /* Adjusted margin for spacing */
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+                line-height: 1; /* Center-align text vertically */
+                vertical-align: middle;
+                border-radius: 5px; /* Rounded corners */
+                cursor: pointer; /* Cursor pointer for better UX */
+            }
+
+            .github-button:hover {
+                background: linear-gradient(45deg, #FF69B4, #8B008B);
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="title">Home</a>
+            <nav>
+                <ul>
+                    <!-- Changed the href to a JavaScript function to go back in history -->
+                    <li><a href="#" id="backButton">Back</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Main -->
+            <section id="main" class="wrapper">
+                <div class="inner project-content">
+                    <h1 class="major">Detection of Alzheimer’s Disease using Machine Learning Model</h1>
+                    <img src="im-686705.jpeg" alt="Project Image" class="project-image">
+                    <p>
+                        Spearheading a groundbreaking initiative, I achieved an impressive accuracy rate of 91.67% in early detection using Python, implementing a diverse range of machine learning models such as XGBoost, SVM, Logistic Regression, and Decision Tree. This accomplishment was not only a testament to the efficacy of these advanced algorithms but also showcased the potential of data-driven approaches in healthcare. To further enhance the project's impact, I employed matplotlib for data visualization, creating compelling visual representations that offered invaluable insights into Alzheimer's research. The focus of this endeavor was not just on achieving high accuracy but also on advocating for early diagnoses. By stressing the significance of timely detection, I aimed to empower patients with knowledge and underscored the critical role it plays in improving accuracy, ultimately contributing to better patient outcomes.
+                    </p>
+                    <button class="github-button" onclick="window.open('https://github.com/akash-venu/Projects/tree/main/ADS', '_blank')">
+                        GitHub Repository
+                    </button>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="wrapper alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Detection of Alzheimer’s Disease using Machine Learning Model</li><li>Akash Venugopal</li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            // Add event listener to the back button
+            document.getElementById('backButton').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent the default behavior of the anchor tag
+                window.history.back(); // Navigate back in history
+            });
+        </script>
+
+    </body>
+</html>

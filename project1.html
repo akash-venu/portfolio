@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!--
+    Hyperspace by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Integrated Analysis of Covid-19</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            /* Set whole page background color to black and text color to white */
+            body, #header, #footer {
+                background-color: black;
+                color: white;
+            }
+
+            /* Set text color for header and footer links */
+            #header .title, #header nav ul li a, #footer .menu li {
+                color: white;
+            }
+            /* Style for the project content */
+            .project-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .project-image {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .github-button {
+                background: linear-gradient(45deg, #8B008B, #FF69B4);
+                color: white;
+                border: none;
+                padding: 15px 30px; /* Adjusted padding for button size */
+                text-align: center;
+                display: inline-block;
+                margin-top: 20px; /* Adjusted margin for spacing */
+                text-decoration: none;
+                transition: background-color 0.3s ease;
+                line-height: 1; /* Center-align text vertically */
+                vertical-align: middle;
+                border-radius: 5px; /* Rounded corners */
+                cursor: pointer; /* Cursor pointer for better UX */
+            }
+
+            .github-button:hover {
+                background: linear-gradient(45deg, #FF69B4, #8B008B);
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="title">Home</a>
+            <nav>
+                <ul>
+                    <!-- Changed the href to a JavaScript function to go back in history -->
+                    <li><a href="#" id="backButton">Back</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Main -->
+            <section id="main" class="wrapper">
+                <div class="inner project-content">
+                    <h1 class="major">Integrated Analysis of Covid-19</h1>
+                    <img src="covid-variant.jpg.avif" alt="Project Image" class="project-image">
+                    <p>
+                        Spearheaded the development and design of stakeholder-centric COVID-19 dashboards leveraging SQL, Tableau, and Python, aimed at bolstering analytical capabilities. These dashboards not only empowered citizens by offering in-depth insights into infection rates, death rates, and vaccination progress across multiple countries but also played a pivotal role in facilitating informed decision-making. By enabling real-time monitoring, the dashboards allowed for swift responses to potential outbreaks and the emergence of new variants, ensuring proactive measures and effective containment strategies.
+                    </p>
+                    <button class="github-button" onclick="window.open('https://github.com/akash-venu/Projects/tree/main/Covid%20Portfolio%20Project', '_blank')">
+                        GitHub Repository
+                    </button>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer" class="wrapper alt">
+            <div class="inner">
+                <ul class="menu">
+                    <li>&copy; Integrated Analysis of Covid-19</li><li>Akash Venugopal</li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            // Add event listener to the back button
+            document.getElementById('backButton').addEventListener('click', function(e) {
+                e.preventDefault(); // Prevent the default behavior of the anchor tag
+                window.history.back(); // Navigate back in history
+            });
+        </script>
+
+    </body>
+</html>
